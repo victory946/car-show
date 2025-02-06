@@ -24,8 +24,10 @@ export interface FilterProps {
 }
 
 export interface HomeProps {
-  searchParams: FilterProps;
+  searchParams:  FilterProps;
 }
+
+
 
 export interface CarCardProps {
   model: string;
